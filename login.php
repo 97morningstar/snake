@@ -44,7 +44,7 @@ $name = '';
 					 $_SESSION['user'] = $row['name'];
 					 $_SESSION['puntos'] = $row['puntos'];
 					//	$_SESSION['isAdmin'] = $isAdmin;
-						header('Location: index.html');
+						header('Location: index.php');
 
 
 					}else{
