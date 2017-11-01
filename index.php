@@ -8,7 +8,7 @@ session_start();
 	<title>Snake</title>
 
 <script type="text/javascript">
-	var puntaje = <?php echo $_SESSION['puntos']; ?>;
+	var puntaje = "<?php echo $_SESSION['puntos']; ?>";
 	puntaje = parseInt(puntaje);
 </script>
 
