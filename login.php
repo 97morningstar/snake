@@ -38,7 +38,7 @@ $name = '';
 					//$isAdmin = $row['admin'];  //yo soy admin :D
 
 					if(password_verify($_POST['password'], $hash)){
-						echo 'Lograste pasar';
+						
 
 						/***** aca ponemos la informacion de la sesion (quien esta logueado y su info) *******/
 					 $_SESSION['user'] = $row['name'];
