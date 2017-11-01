@@ -20,7 +20,7 @@ function PickLocation(){
    food.mult(scl);
 }
 
-/*
+
 function draw() {
 	background(51);
 
@@ -51,7 +51,7 @@ function keyPressed(){
          s.dir(-1, 0);
 	}
 }
-*/
+
 
 function Snake(){
 	this.x=0;
